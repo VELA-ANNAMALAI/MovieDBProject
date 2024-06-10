@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -18,15 +17,7 @@ module.exports = {
       },
     },
     extend: {
-
-      screens: {
-        sidebar: "1260px",
-      },
-
       colors: {
-        
-        gray: "#737373",
-        insta: "#0095f6" ,
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

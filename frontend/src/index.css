@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +8,10 @@
 
 @layer base {
   :root {
+    --background: var(--background, #fff);
+  --foreground: var(--foreground, #333);
+
+
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
 
@@ -75,4 +81,24 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.dark {
+  --background: #333;
+  --foreground: #fff;
+  /* Add other dark mode styles here */
+}
+
+.light {
+  --background: #fff;
+  --foreground: #333;
+  /* Add other light mode styles here */
+}
+
+ul{
+  list-style: none;
+}
+
+.no-bullets{
+  list-style-type:none ;
 }
