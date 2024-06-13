@@ -205,3 +205,4 @@ export const getIndiasTrendingMovies = async () => {
     console.log(e);
   }
 };
+
